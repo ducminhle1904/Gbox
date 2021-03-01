@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Grunt Project</title>
+    <link rel="icon" href="https://www.vivosmartphone.vn/themes/vivo/favicon.ico">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+    <link rel="stylesheet" href="dest/stylelibs.min.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="p">LOADING</div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="hambergur" >
+                <a href="#"><img class="btnmenu" src="./img/menu.svg" alt=""></a>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            </div>
+            <div class="fb">
+                <a href="https://www.facebook.com/profile.php?id=100006672887523" target="blank"><img src="./img/facebook.svg" alt=""></a> 
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="aboutus.html" class="left">About</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="studio_rental.html">Rental</a></li>
+                <li><a href="cafeGbox.html">Cafe</a></li>
+                <li><a href="allwork.html">Work</a></li>
+                <li><a href="contact.html" class="right">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="rental">
+        <div class="container">
+            <div class="rental__left">
+                <div class="number">
+                    <span>STUDIO</span>
+                    <span>01</span>
+                </div>
+                <div class="desc">
+                    <h2 class="title">Rental</h2>
+                    <span>dimensions</span><br>
+                    <span>87ft × 92ft × 31ft</span><br>
+                    <span>(26.52m × 28.04m × 9.45m)</span>    
+                </div>
+            </div>
+            <div class="rental__right">
+                <div class="company">
+                    <h3>Company details</h3>
+                    <div class="form">
+                        <div class="form__input">
+                            <label for="cname">Company name:*</label><br>
+                            <input type="text" id="cname" name="cname" value="" required><br>
+                        </div>
+                        <div class="form__input">
+                            <label for="email">E-mail:*</label><br>
+                            <input type="email" id="email" name="email" value="" required><br>
+                        </div>
+                        <div class="form__input">
+                            <label for="contact">Contact Name:*</label><br>
+                            <input type="text" id="contact" name="contact" value="" required><br>
+                        </div>
+                        <div class="form__input">
+                            <label for="account">Accounts payable contact: *</label><br>
+                            <input type="text" id="account" name="account" value="" required><br>
+                        </div>
+                        <div class="form__input">
+                            <label for="phone">Phone:*</label><br>
+                            <input type="number" id="phone" name="phone" value="" required><br>
+                        </div>
+                        <div class="form__input">
+                            <label for="address">Company Address:*</label><br>
+                            <textarea id="address" name="address" rows="5" cols="28" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="details">
+                    <h3>Booking details</h3>
+                    <h4>Studio:</h4>
+                    <div class="option active">
+                        <span>01</span>
+                    </div>
+                    <div class="option">
+                        <span>02</span>
+                    </div>
+                    <div class="option">
+                        <span>03</span>
+                    </div>
+                    <div class="option">
+                        <span>04</span>
+                    </div>
+                    <div class="details__input">
+                        <div class="info">
+                            <label for="cr">Catering Requirements:</label><br>
+                                <textarea id="cr" name="cr" rows="5" cols="28"></textarea>
+                        </div>
+                        <div class="info">
+                            <label for="email">Lighting Requirements:</label><br>
+                                <textarea id="lr" name="lr" rows="5" cols="28"></textarea>
+                        </div>
+                        <div class="info full">
+                            <label for="bd">Booking Duration:</label><br>
+                                <input type="date" id="bd" name="bd" value="dd/mm/yyyy"><br>
+                        </div>
+                        <div class="info full">
+                            <label for="pr">Project Reference:</label><br>
+                                <input type="text" id="pr" name="pr" value=""><br>
+                        </div>
+                        <div class="info full">
+                            <label for="hear">Where did you here about us:</label><br>
+                                <input type="text" id="hear" name="hear" value=""><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking">
+                    <div class="book">
+                        <span>Submit</span>
+                    </div>
+                    <div class="submit">
+                        <p>
+                            By submitting this form <br> I agree to 
+                            <span>GBox Studio’s</span> <br> Terms & Conditions.
+                        </p>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="info">
+        <div class="container">
+            <div class="info__detail">
+                <div class="email">
+                    <span>Email</span>
+                    <p>info@goldenboxstudios.com</p>
+                    <p><span class="tel">Tel</span>        +84 979 872 809</p>
+                </div>
+                <div class="address2">
+                    <span>Address</span>
+                    <span>04 bau cat district tan binh</span>
+                    <span>Ho chi minh city.</span>
+                </div>
+                <div class="quote">
+                    <p>If you have any questions, comments or <br> suggestions, feel free to email <br> us or send us a message us</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="address">
+                <span>Address</span>
+                <span>04 bau cat district tan binh</span>
+                <span>Ho chi minh city.</span>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <label for="yname">Your name</label><br>
+                        <input type="text" id="yname" name="yname" value=""><br>
+                    </td>
+                    <td>
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject" value=""><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone</label><br>
+                        <input type="number" id="phone" name="phone" value=""><br>
+                    </td>
+                    <td>
+                        <label for="message">Message</label><br>
+                        <input type="text" id="message" name="message" value=""><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" value=""><br>
+                    </td>
+                    <td>
+                        <input type="submit" value="Send">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="backtotop">
+            <img src="./img/backtotop.svg" alt="">
+            <span>© 2018 GBOX STUDIO. All rights reserved</span>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
